@@ -39,7 +39,7 @@ Widget btcSections() {
                   onSurface: AppColors.whiteColor,
                   side: BorderSide(color: AppColors.whiteColor)
               ),
-              child: Text("Change",))
+              child: const Text("Change",))
         ],
       ),
     ),

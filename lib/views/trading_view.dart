@@ -149,7 +149,7 @@ class _TradingViewState extends State<TradingView> {
                   const BottomNavigationBarItem(
                       icon: ImageIcon(AssetImage("assets/icons/home.png")), label: 'Home'),
                   BottomNavigationBarItem(
-                      icon: ImageIcon(AssetImage("assets/icons/vector.png"),
+                      icon: ImageIcon(const AssetImage("assets/icons/vector.png"),
                         color: AppColors.blueColor,),
                       label: 'Portfolio'),
                   const BottomNavigationBarItem(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:varens_app_test/helpers/app_colors.dart';
 import 'package:varens_app_test/helpers/app_text_styles.dart';
 
 Widget marketStats({required VoidCallback pressed,
