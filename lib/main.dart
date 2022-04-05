@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varens_app_test/views/trading_view.dart';
+import 'package:varens_app_test/widgets/nav_bar.dart';
 
 void main() {
   runApp(const MyApp());
