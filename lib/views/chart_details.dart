@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:varens_app_test/helpers/app_colors.dart';
 import 'package:varens_app_test/widgets/btc_section.dart';
@@ -15,8 +17,7 @@ class _ChartDetailsState extends State<ChartDetails> {
   Widget build(BuildContext context) {
     return DefaultTabController(
         length: 5,
-        child: SizedBox(
-            child: Column(
+        child: Column(
           children: [
             Row(
               children: [
@@ -53,17 +54,21 @@ class _ChartDetailsState extends State<ChartDetails> {
                 )
               ],
             ),
-            const SizedBox(
-              height: 150,
-              child: TabBarView(children: [
-                Text("book"),
-                Text("book"),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 20),
+              height: 250,
+              child: TabBarView(physics: ScrollPhysics(), children: [
+                Text(
+                  "ego",
+                  style: TextStyle(color: Colors.white),
+                ),
+                Text("car"),
                 Text("book"),
                 Text("book"),
                 Text("book"),
               ]),
-            )
+            ),
           ],
-        )));
+        ));
   }
 }
