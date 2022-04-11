@@ -41,7 +41,7 @@ Widget btcSections() {
         ],
       ),
       Container(
-        height: 100,
+        height: 110,
         width: double.infinity,
         margin: const EdgeInsets.symmetric(vertical: 20),
         color: AppColors.btcBgColor,

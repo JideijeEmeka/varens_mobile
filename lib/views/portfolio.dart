@@ -74,41 +74,6 @@ class _PortfolioState extends State<Portfolio> {
                     ],
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 15),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        "123.342,62",
-                        style: AppTextStyles.dashBoardFont20,
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(top: 10, left: 5),
-                        child: Text(
-                          "USD",
-                          style: AppTextStyles.usdFont14,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "\$120.234,21",
-                      style: AppTextStyles.priceFont14,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 5),
-                      child: Text(
-                        "+8,1%",
-                        style: AppTextStyles.usdFont14,
-                      ),
-                    ),
-                  ],
-                ),
                 btcSections(),
                 Row(
                   children: [

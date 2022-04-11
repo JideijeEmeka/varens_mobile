@@ -1,9 +1,5 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:varens_app_test/helpers/app_colors.dart';
-import 'package:varens_app_test/widgets/btc_section.dart';
-import 'package:varens_app_test/widgets/buy_and_sell_widgets.dart';
 
 class ChartDetails extends StatefulWidget {
   const ChartDetails({Key? key}) : super(key: key);
@@ -55,11 +51,11 @@ class _ChartDetailsState extends State<ChartDetails> {
               ],
             ),
             Container(
-              margin: EdgeInsets.symmetric(horizontal: 20),
+              margin: const EdgeInsets.symmetric(horizontal: 20),
               height: 250,
-              child: TabBarView(physics: ScrollPhysics(), children: [
+              child: const TabBarView(physics: ScrollPhysics(), children: [
                 Text(
-                  "ego",
+                  "pig",
                   style: TextStyle(color: Colors.white),
                 ),
                 Text("car"),

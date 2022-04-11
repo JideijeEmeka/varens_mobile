@@ -1,14 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:varens_app_test/helpers/app_colors.dart';
-import 'package:varens_app_test/helpers/app_text_styles.dart';
-import 'package:varens_app_test/helpers/constants.dart';
 import 'package:varens_app_test/views/home.dart';
 import 'package:varens_app_test/views/portfolio.dart';
 import 'package:varens_app_test/views/wallet.dart';
-import 'package:varens_app_test/widgets/btc_section.dart';
-import 'package:varens_app_test/widgets/buy_and_sell_widgets.dart';
-import 'package:varens_app_test/widgets/market_stats.dart';
 
 class TradingView extends StatefulWidget {
   const TradingView({Key? key}) : super(key: key);
